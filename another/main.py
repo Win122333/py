@@ -19,13 +19,17 @@ def take_student(students, n):
     return unpack_student_info[:n]
 
 def main():
-    with open('/another/input3.txt') as f:
-        sts = [Student(*i.split(', ')) for i in f.readlines()]
 
+    d = (i ** 2 for i in range(1, 6))
+    print(9 in d, 4 in d)
 
-    answer = take_student(sts, 2)
-    for i in answer:
-        print(i)
+    # with open('/another/input3.txt') as f:
+    #     sts = [Student(*i.split(', ')) for i in f.readlines()]
+    #
+    #
+    # answer = take_student(sts, 2)
+    # for i in answer:
+    #     print(i)
 
     # with open('/Users/win122333/PycharmProjects/pyMain/out3.txt') as f:
     #     for i in range(len(answer)):
