@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>what is *</pattern>
+    <template><sraix service="xml" hint="/SearchSuggestion/Section/Item/Description/text()">https://en.wikipedia.org/w/api.php?action=opensearch&format=xml&search=<star/>&limit=1</sraix></template>
+</category>
+</aiml>

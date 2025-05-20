@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern></pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+      
+    <pattern>Hello</pattern>
+    
+    <template>Good Day.  I am the MAG WEB DESIGNS representative bot.  You may also think of me as a helper wizard. Ask me about what we do here.
+    <a href = "http://www.magwebdesigns.net">MAG WEB DESIGNS NET</a>
+    </template>
+    
+  </category>
+  
+  <category>
+    <pattern>What do you * </pattern>
+    <template>I am a helper Wizard.  I can answer your questions about Web Design and SEO.  I am also knowledable about UX and UI.</template>
+  </category>
+  
+  <category>
+    <pattern>UI</pattern>
+    <template>UI is a loose acronym for 'User Interface'. At MAG WEB DESIGNS INC we give our clients modern user interfacing with advanced scripting and design funnels. </template>
+  </category>
+  
+  <category>
+    <pattern>SEO</pattern>
+    <template>SEO stands for Search Engine optimization.
+        Do you want our expert help with getting on the first page of Google and other SERPS? Contact MAG WEB DESIGNS today. We offer White Hat SEO practices that will rank any low to medium competition key words. Ask me about the SERPS. 
+    </template>
+  </category>
+  
+   <category>
+    <pattern>web design</pattern>
+    <template>At MAG WEB DESIGNS NET we utilize modern best practices for web design and integration. Our designers are familiar with the latest design and mark up language trends. We offer complete integration of HTML5 and CSS3 with Wordpress and Joomla CMS's. Modern user interface and experience is also enhanced with scripting and automated bots. 
+    </template>
+  </category>
+  
+  
+   <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  
+   <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  
+  
+  
+  
+  
+</aiml>

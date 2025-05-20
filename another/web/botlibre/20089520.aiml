@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+    <pattern>who are you</pattern>
+    <template>I am Ingemar and I am under test and evaluation.</template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <template>I am unable to answer.</template>
+</category>
+</aiml>

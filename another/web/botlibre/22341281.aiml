@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern>How do I create a contract?</pattern>
+      <template>
+		On the menu bar, go go Contract -> Create Contract/Agreement.
+      </template>
+      
+   </category>
+</aiml>
